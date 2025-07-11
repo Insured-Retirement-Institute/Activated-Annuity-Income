@@ -31,9 +31,10 @@ User Story 2: As a financial advisor, I want to use my portfolio tool for direct
 
 
 ## Business Owners 
-- Carrier Business Owner: Malesky, Dana dana.malesky@jackson.com; Christina Cuffari christina.cuffari@prudential.com; Amy Iliescu amy.iliescu@prudential.com
+- Carrier Business Owner: Prudential - Christina Cuffari christina.cuffari@prudential.com; Amy Iliescu amy.iliescu@prudential.com, Corebridge - Tina Haley tina.haley@corebridgefinancial.com, Athene - Lana Nelson LNelson@athene.com, New York Life - Craig Fernicola Craig_Fernicola@newyorklife.com
 - Distributor Business Owner: contact
-- Solution Provider Business Owner: Justin Wayne justin.wayne@sscinc.com ; Liz Lanahan liz.lanahan@sscinc.com
+- Solution Provider Business Owner: SS& C- Justin Wayne justin.wayne@sscinc.com ; Liz Lanahan liz.lanahan@sscinc.com iCapital - Abhishek Damaraju Abhishek.Damaraju@icapitalnetwork.com
+- Interested: Jackson, Lincoln
 
 ## How to engage, contribute, and give feedback
 - These working groups are occuring on ....
