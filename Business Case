@@ -1,131 +1,42 @@
 Visualizing Annuity Income Business Case
-Business Champions:  SS&C BlackDiamond (Justin and Liz)
-Need carriers. 
 
-Engaged but don’t necessarily have resources committed yet for net new calculations: 
-•	Jackson National (Dana Malesky) 
-•	Prudential (Alex McGuire)
-
+Business Champions:  SS&C BlackDiamond (Justin and Liz) and ICapital Abhishek
+- Corebridge: raja.kumarasamy@corebridgefinancial.com, Raja.Ganesan@corebridgefinancial.com; 
+- Prudential: Bradley Safer bradley.safer@prudential.com, Jessica Gideon <jessica.gideon@prudential.com>
+- Athene: Larry Hunt lhunt@athene.com; Lana Nelson lnelson@athene.com
+- Nationwide: New York Life: Craig_Fernicola@newyorklife.com
+-	DTCC: Smith, Jeanann F. <jsmith@dtcc.com>; Costanzo, Tony <tcostanzo@dtcc.com>
+-	iCapital: Abhishek Damaraju <abhishek.damaraju@icapitalnetwork.com>
+-	SS&C BlackDiamond Wealth Solutions: Liz Lanahan <liz.lanahan@sscinc.com>; Justin Wayne <justin.wayne@sscinc.com>
 
 Executive Summary:
-The Digital-First for Annuity goal is to increase the net new number of financial professionals wanting to understand, transact, and manage annuities. To do that, the industry needs to enable financial professionals to report annuity income in the tools that they are using for portfolio management. The industry has come together to create a standardized system for reporting current and future income from annuities, which will allow any financial professional tool to seamlessly integrate annuity income projections into their comprehensive portfolio reports. 
+The Digital-First for Annuity goal is to increase the net new number of financial professionals wanting to understand, transact, and manage annuities. This project will focus on the 93% of financial professionals that are not meaningfully transacting annuities. To do that, the industry needs to enable financial professionals to report annuity income in the tools that they are using for portfolio management, wealth management, the brokerage account. 
+The industry needs to create a standardized, easy, way for reporting current and future income from annuities, which will allow any tool to seamlessly integrate annuity income projections into their comprehensive portfolio reports without requiring in-depth product knowledge, mapping, or complex calculations. 
 Problem:
 Financial advisors face significant challenges presenting annuity income to their consumers in the same tool where their other products are managed. These challenges are due to… 
-•	FinTech firms avoiding integrations due to the require for custom work by carrier and by product.
-•	Lack of standardization across different annuity products and carriers. 
-•	Complexity of calculations, that very by carrier and product creating barriers to integration. 
 •	Current inability to see activated income alongside traditional investments
 •	Current inability to see available income alongside traditional investments
 •	Current inability to run long-term annuity income projections, preventing directionally accurate long-term income planning. 
+•	Custom work by carrier and by product is often required to support annuity products, creating barriers to integrating. 
+•	Lack of standardization across different annuity products and carriers creates barriers to integration. 
+•	Complexity of calculations, that very by carrier and product, creating barriers to integration. 
 
+These barriers create missed financial planning and reporting opportunities, reducing advisors' ability to recommend annuities effectively or even manage the annuity (activation of riders, etc) or manage the consumer’s income planning discussions. Without visibility into annuity income, advisors are less likely to recommend annuities, despite their value. 
 
-These barriers create missed financial planning opportunities, reducing advisors' ability to recommend annuities effectively or even manage the annuity (activation of riders, etc). Without visibility into annuity income, advisors are less likely to recommend annuities, despite their value. 
-
-Outcomes and Definition of Success
-KPI1: Increased percentage of advisors who use annuities in their practice, aiming to move beyond the current 7% adoption rate
-•	Measured through the percentage of financial advisors actively incorporating annuities into their client portfolios. 
-•	Use portfolio management tool analytics to track how often annuity income projections are accessed or used in reports.
-OKRs:
-•	Objective: Enhance Financial Planning Conversations Through Better Data Visibility
-o	Key Results: Improve financial advisors’ confidence in annuity-based income planning, measured through a 20% increase in engagement with annuity reports within portfolio tools.
-
-•	Objective: Include income planning in financial professional portfolio management tools. 
-o	Key Results: Ensure at least one portfolio management tool integrates 12 month annuity income data with at least one carrier by Q1 2026. 
-o	Key Results: Ensure 12 month income visibility in at least three major financial planning tools by Q4 2026.
-
-•	Objective: Establish a standardized framework that allows annuity income data to be easily integrated into financial planning tools without requiring deep product knowledge from solution providers.
-Measure of Success: 
-o	Key Results: Develop and implement a standardized annuity income data model for the current income by end of Q2 2025.
-o	Key Results: Develop and implement a standardized annuity income data model for the projected future income by end of Q4 2025.
-o	Key Results: Establish a streamlined data-sharing process where carriers provide pre-calculated income figures, reducing integration complexity for solution providers.
-
-•	Objective:  Expand ability for portfolio management and reporting tools to have long-term income planning conversations based on future income projections.
-o	Key Results: Ensure at least one portfolio management tool integrates long-term annuity income data with at least one carrier by xx. 
-o	Key Results: Ensure long-term income visibility in at least three major financial planning tools by xx.
- 
 
 Use Cases
 
-Day1 Use Case 1: A portfolio management and reporting tool can be used for accurate income planning where the annuity short-term income (12 months) has been activated for inforce policies.  This use case shows baseline income that has started (income rider activated and annuitized), scheduled withdrawals, and provides the near-accurate income for the next rolling 12 months. 
+Day1 Use Case 1: A portfolio management and reporting tool can be used for accurate income planning where the annuity short-term income (12 months) has been activated for inforce policies.  This use case shows baseline income to provide the near-accurate income for the next rolling 12 months including income that has started (income rider activated) or the contract has been annuitized . 
 
-User Story 1: As a financial advisor, I want to use my portfolio tool for near-accurate income planning to present a comprehensive look at activated income on the annuity over the next 12 months (rolling). 
+User Story 1: As a financial advisor, I want to get a snapshot in time in my portfolio tool for near-accurate income planning that includes the inforce annuity to present a comprehensive look at activated income on the annuity over the next 12 months (rolling). 
 
-•	Near-accurate income means that some nuances may not be included but nuances will be called out in disclaimer.
-•	Data the FP needs to know must be present:
-o	Must know when the income rider was activated with the benefit base and payment amount.
-o	Separate out guarantee income from non-guaranteed income
-•	This data does not change during the day so the data does not need to be pulled from the carrier real-time. The data could come from the daily feed and pulled into the portfolio by the tool real-time.
+- Must know the payment schedule: last payment, amount of last payment and frequency. That number will be replicated for the frequency to get a near-accurate view of the income as it is known at that time. (see below feed back from FPs)
+- Must have an indicator if that payment amount is gross of taxes or net of taxes (either is fine but it needs to be disclosed)
+- Nice to have: important dates related to the contract like when a step up or anniversary is eligible. 
+- There is a need for single requests as well as bulk requests. 
+- Parameters to control the request (by firm, agent, contract list, etc)
+-	The bulk method lives alongside a synchronous response such that the API will define batch / asynchronous and the parameters; or single synchronous and the parameters. This way the methods are reusing components. 
 
-Day1 Use Case 2:  A portfolio management and reporting tool can be used for directionally accurate income availability planning where the annuity short-term income (12 months) has not been activated for inforce policies.  The contract is in the accumulation phase and they want to show what income is possible on the contract. 
+Implementor notes: Nice to have: Separate guaranteed income/secure income from non-guaranteed/other income so the annuity is seen as a differentiator
+Nice to have: visual indicator in the 12 month timeline if a step up or anniversary is eligible. Only possible if that data is passed. (optional)
 
-User Story 2: As a financial advisor, I want to use my portfolio tool for directionally accurate income planning to present a rough plan for the available income over the next 12 months (rolling). 
-•	Data:  the benefit base with step-ups and roll-ups and guarantees, age when they expect to start income to calculate rolling 12 month projections.
-•	Income availability: available guarantees
-
-
-Day 1 General Solution discussion:
-•	Make this as easy as possible for the tools that do not do a lot with annuities and don’t know the products or the rules for calculations.
-o	Consider having the carriers complete the calculations and pass the values to eliminate the solution provider from having to know the products, rules, and ways to calculate. 
-•	Create a model that will increase implementation and enable innovation.
-•	A build once – use many model is needed for the platforms so they can use the same integration across all carriers and products. 
-o	The data must be standardized to make it easier for integration across carriers.  
-
-___________
-
-
-Long-term Use Case 2: A client receives a comprehensive portfolio report that includes projected annuity income, providing a full view of their financial future. This use case provides a view longer than 12 months, requires growth to be projected and inforce illustrations with real-time modeling. This use case allows for financial professionals to view potential income before activating an income rider real-time. 
-•	Could be broken down into phases with Monte Carlo simulations versus inforce illustrations. 
-•	Carriers could run the calculations themselves and pass that data consistently in the POV or another file to avoid running inforce illustrations.
-•	Easiest Day 1 solution is to define the data needed, and standardize that data to be passed on the existing files. 
-
-User Story 2: As a financial advisor, I want to be able to show clients their projected annuity income alongside traditional investment data, so that we can have meaningful long-term financial planning conversations that include income over time.
-STOP Here. Discussions will pick up here in the next call. 
- 
-
-Journey Maps (Integrations and Required Data)
-Journey Maps: Include visual maps that identify all key touchpoints where customers, financial professionals, and carriers interact with the system.
-Integration Points:
-•	DTCC Supplementary File: Standardized data points for a 12-month payment schedule.
-•	On-Demand API Spec: Real-time retrieval of payment schedule information for integration with financial planning platforms.
-•	Carriers: Integrate with carrier systems to ensure standardized annuity data is accessible.
-Required Data:
-•	Income Data: Value, frequency, and start/stop dates of annuity payments.
-•	Client Data: Financial portfolio information to integrate annuity income projections.
-•	Product Data: Data on annuity products and associated payment structures.
-
-Solution: 
-The solution is to standardize the reporting of annuity income, making it easier for financial advisors to include annuities in their clients' comprehensive portfolio reports. Key features and objectives include:
-•	Real-time retrieval: An API of payment schedule information.
-•	Standardize Income Reporting: Create a uniform standard for reporting annuity payments, ensuring consistency across various providers.
-•	Integration: Ensure the standardized annuity data can be used alongside other investments in portfolio reports.
-•	Provide Holistic Financial Views: Allow advisors to display annuity income alongside traditional investments and other income sources, presenting a full financial picture.
-•	Increase Advisor Confidence: Help advisors confidently include annuities in their financial planning conversations, increasing the likelihood of recommending annuities to clients.
-
-Timeline for Implementation
-Phase 1: Planning & Kickoff (TBD)
-•	Kickoff Session: Align on goals, resources, and responsibilities.
-•	Business Case Development: Finalize the business case for stakeholder approval.
-•	Workstream Mapping: Define key tasks and related to-dos.
-Phase 2: Standard Development (TBD)
-•	Working Group: Aligns on business requirements and data elements.
-•	Technical Writers: Create the technical spec in Github repository.
-•	Working Group: Business feasibility testing.
-•	Technical Writers: Technical feasibility testing.
-Phase 3: Governance: (TBD)
-•	Governance Committee: Reviews the standard.
-•	Working Group & Technical Writers: Address any proposed revisions or updates.
-•	Governance Committee: Deploys the standard to Github.
-Phase 4: MVP Development & Integration (TBD)
-•	Platform Development: Build the minimum viable product (MVP), focusing on beneficiary data updates.
-•	Carrier Integration: Work with at least three carriers for integration.
-•	User Testing: Conduct testing with a limited user base for feedback and adjustments.
-Phase 5: Testing & Launch (TBD)
-•	Platform Testing: Perform full-scale testing, including functional and user acceptance testing.
-•	Platform Launch: Go live with the MVP and monitor initial performance.
-Ongoing Support & Iteration (TBD)
-•	Continuous Monitoring: Address any issues or bugs post-launch.
-•	Iterative Improvements: Plan for additional features or scaling as needed.
-•	Track Implementation of standards on IRI’s Digital First Dashboard.
-•	Track Measures of Success to report on IRI’s Digital First Dashboard.
-Working Group Firms:
-IRI, SS&C, Equitable, Global Atlantic, Jackson, Lincoln, Nationwide, Prudential, Cannex, DTCC, DPL, iCapital, Beacon, Zinnia
