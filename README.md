@@ -57,10 +57,19 @@ Response information: same as the single with repeating the policyIncome block f
 The sender and receiver will be defined by the implementors to address authorization and authentication. 
 
 ## Business Owners 
-- Carrier Business Owner: Prudential - Christina Cuffari christina.cuffari@prudential.com; Amy Iliescu amy.iliescu@prudential.com, Corebridge - Tina Haley tina.haley@corebridgefinancial.com, Athene - Lana Nelson LNelson@athene.com, New York Life - Craig Fernicola Craig_Fernicola@newyorklife.com
-- Carrier Technical Owners: Raja Kumarasamy raja.kumarasamy@corebridgefinancial.com; Raja Ganesan raja.ganesan@corebridgefinancial.com; Jessica Gideon jessica.gideon@prudential.com: Larry Hunt lhunt@athene.com
-- Solution Provider Business Owner: SS& C- Justin Wayne justin.wayne@sscinc.com ; Liz Lanahan liz.lanahan@sscinc.com iCapital - Abhishek Damaraju Abhishek.Damaraju@icapitalnetwork.com;
-- DTCC: Smith, Jeanann F. <jsmith@dtcc.com>; Costanzo, Tony <tcostanzo@dtcc.com>
+Business Champions:  SS&C BlackDiamond (Justin and Liz) and ICapital Abhishek
+- Carrier Business Owners:
+- Prudential - Christina Cuffari christina.cuffari@prudential.com; Amy Iliescu amy.iliescu@prudential.com,
+- Corebridge - Tina Haley tina.haley@corebridgefinancial.com,
+- Athene - Lana Nelson LNelson@athene.com,
+- New York Life - Craig Fernicola Craig_Fernicola@newyorklife.com
+Technical Writers:
+•	Corebridge: raja.kumarasamy@corebridgefinancial.com, Raja.Ganesan@corebridgefinancial.com; 
+•	Prudential: Bradley Safer bradley.safer@prudential.com, Jessica Gideon <jessica.gideon@prudential.com>
+•	Athene: Larry Hunt lhunt@athene.com; 
+•	DTCC: Smith, Jeanann F. <jsmith@dtcc.com>; Costanzo, Tony <tcostanzo@dtcc.com>
+•	iCapital: Abhishek Damaraju <abhishek.damaraju@icapitalnetwork.com>
+•	SS&C BlackDiamond Wealth Solutions: Liz Lanahan <liz.lanahan@sscinc.com>; Justin Wayne <justin.wayne@sscinc.com>
 
 
 ## How to engage, contribute, and give feedback
