@@ -2,7 +2,7 @@
 
 Enabling annuity income to be reflected next to other sources of income for clients where financial professionals are currently showing their income.
 
-Please refer to the [style guide](https://github.com/Insured-Retirement-Institute/Style-Guide) for technical governance of standards, data dictionary, and the code of conduct.
+Please refer to the [Digital-First-Specifications](https://github.com/Insured-Retirement-Institute/Digital-First-Specifications) repository for technical governance of standards, data dictionary, and the code of conduct.
 
 ## Business Cases
 The Digital-First for Annuity goal is to increase the net new number of financial professionals wanting to understand, transact, and manage annuities. This project will focus on the 93% of financial professionals that are not meaningfully transacting annuities. To do that, the industry needs to enable financial professionals to report annuity income in the tools that they are using for portfolio management, wealth management, the brokerage account. 
@@ -82,4 +82,4 @@ Security issues and bugs should be reported directly to Katherine Dease kdease@i
 
 ## Code of conduct
 
-See [style guide](https://github.com/Insured-Retirement-Institute/Style-Guide)
+See [Digital-First-Specifications](https://github.com/Insured-Retirement-Institute/Digital-First-Specifications) repository
