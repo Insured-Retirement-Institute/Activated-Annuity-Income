@@ -74,11 +74,11 @@ Technical Writers:
 
 ## How to engage, contribute, and give feedback
 - These working groups are occuring on ....
-- Please contact the business owners or IRI (Hannah Pikus hpikus@irionline.org, Tammy Tibbs ttibbs@irionline.org; Katherine Dease kdease@irionline.org) to get added to the working group discussions. 
+- Please contact the business owners or IRI (Hannah Pikus hpikus@irionline.org, Tammy Tibbs ttibbs@irionline.org; Matt Hendrickson mhendrickson@irionline.org) to get added to the working group discussions. 
 
 ## Change subsmissions and reporting issues and bugs
 
-Security issues and bugs should be reported directly to Katherine Dease kdease@irionline.org. Issues and bugs can be reported directly within the issues tab of a repository. Change requests should follow the standards governance workflow outlined on the [main page](https://github.com/Insured-Retirement-Institute).
+Security issues and bugs should be reported directly to Mark Francis mfrancis@irionline.org. Issues and bugs can be reported directly within the issues tab of a repository. Change requests should follow the standards governance workflow outlined on the [main page](https://github.com/Insured-Retirement-Institute).
 
 ## Code of conduct
 
